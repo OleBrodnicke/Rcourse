@@ -13,7 +13,6 @@ knitr::opts_chunk$set(echo = TRUE)
 x=seq(1, 10, len=1)
 y=40*2 + rnorm(10,0,5)
 plot(x,y)
-
 ```
 Codemanagment: sharing code with colaborators
 Install packages in the same directory: Do not install packages through RStudio but in R itself (as admin)
@@ -22,6 +21,7 @@ Create a project for each analysis - Always create a git repository
 Git: Snapshot of your version history of your analysis/project - In the staging area you chose which files you snapshot - Finaly repository stores (commits your files)
 The head in git points at where to add the next commit when working on alternate versions of an analysis.
 Config git so it and your colaborators know your name and email (action once)
+Gitignore stores what files you do not want to commint in your repository
 
 ## R Markdown
 

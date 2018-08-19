@@ -13,7 +13,6 @@ knitr::opts_chunk$set(echo = TRUE)
 x=seq(1, 10, len=1)
 y=40*2 + rnorm(10,0,5)
 plot(x,y)
-summary(x)
 ```
 Codemanagment: sharing code with colaborators
 Install packages in the same directory: Do not install packages through RStudio but in R itself (as admin)

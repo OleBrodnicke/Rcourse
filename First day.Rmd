@@ -22,9 +22,7 @@ Git: Snapshot of your version history of your analysis/project - In the staging 
 The head in git points at where to add the next commit when working on alternate versions of an analysis.
 Config git so it and your colaborators know your name and email (action once)
 Gitignore stores what files you do not want to commint in your repository
-The head always point to the commit that I am working ong
-git tag -a 'V.1' -m 'Version 1' gives one of your versions a tag that you want to access later
-git checkout lets you move the head back
+
 ## R Markdown
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
